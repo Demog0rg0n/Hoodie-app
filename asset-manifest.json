@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/hoodie-app/static/css/main.9ec68915.css",
-    "main.js": "/hoodie-app/static/js/main.09d8f1f0.js",
+    "main.css": "/hoodie-app/static/css/main.3d91b0b6.css",
+    "main.js": "/hoodie-app/static/js/main.4d9411f2.js",
     "static/media/atackOnTitan.jpg": "/hoodie-app/static/media/atackOnTitan.a6cb76dd398c80174cda.jpg",
+    "static/media/startingSectionFon2.jpg": "/hoodie-app/static/media/startingSectionFon2.5cc7fa3cb136c58a8a33.jpg",
     "index.html": "/hoodie-app/index.html",
-    "main.9ec68915.css.map": "/hoodie-app/static/css/main.9ec68915.css.map",
-    "main.09d8f1f0.js.map": "/hoodie-app/static/js/main.09d8f1f0.js.map"
+    "main.3d91b0b6.css.map": "/hoodie-app/static/css/main.3d91b0b6.css.map",
+    "main.4d9411f2.js.map": "/hoodie-app/static/js/main.4d9411f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ec68915.css",
-    "static/js/main.09d8f1f0.js"
+    "static/css/main.3d91b0b6.css",
+    "static/js/main.4d9411f2.js"
   ]
 }
