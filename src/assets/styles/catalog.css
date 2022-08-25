@@ -16,13 +16,6 @@ input[type="range"]{
     width: 200px;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .wrapper{
     width: 100%;
     display: flex;
@@ -92,11 +85,6 @@ input[type="range"]{
 .sort__span{
     color: rgb(222, 100, 0);
     text-decoration: underline;
-}
-
-.content_bottom{
-    display: flex;
-    flex-direction: column;
 }
 
 input[name="price"]{

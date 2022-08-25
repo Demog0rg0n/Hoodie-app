@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
         <div className="header__content">
             <Link to={"/"} className="logo">Hoodies</Link>
-                <input className="search" type="text" placeholder="Поиск" />
+                {/* <input className="search" type="text" placeholder="Поиск" /> */}
                 <div className="header_right">
                 <Link to={"cart"} className="cart__link">
                     <img className="header__cart" src="https://cdn3.iconfinder.com/data/icons/glypho-shopping-and-ecommerce/64/cart-outline-256.png" alt='' /> 

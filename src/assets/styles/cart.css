@@ -2,13 +2,6 @@ button{
     background-color: white;
 }
 
-.content_bottom{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .cart{
     min-height: 700px;
     display: flex;

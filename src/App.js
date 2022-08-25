@@ -2,11 +2,12 @@ import { Routes, Route } from 'react-router-dom'
 
 import Header from './components/Header';
 
+import './assets/styles/general.css'
+
 import Catalog from './pages/Catalog';
 import Cart from './pages/Cart';
-import Home from './pages/Home';
+import Home from './pages/Home'
 
-console.log(window.location.pathname)
 function App() {
   return (
   <div className='wrapper'>
