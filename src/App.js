@@ -14,7 +14,7 @@ function App() {
     <div className="content_bottom">
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='catalog' element={<Catalog />} />
+        <Route path='/catalog' element={<Catalog />} />
         <Route path='/cart' element={<Cart />} />
       </Routes>
     </div>
