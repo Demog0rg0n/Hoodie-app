@@ -37,7 +37,8 @@ input[type="range"]{
     display: flex;
     justify-content: space-between;
     position: relative;
-    width: 1200px;
+    width: 90vw;
+    max-width: 1200px;
 }
 
 .nav__elem{
@@ -93,14 +94,14 @@ input[name="price"]{
 }
 
 .products{
-    width: 1220px;
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .product{
     width: 250px;
-    height: 450px;
+    height: 430px;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -154,4 +155,22 @@ input[name="price"]{
     background-color: black;
     color: #fff;
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .products{
+        width: 900px;
+    }
+}
+
+@media (max-width: 900px) {
+    .products{
+        width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .products{
+        width: 300px;
+    }
 }

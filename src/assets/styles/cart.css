@@ -8,13 +8,15 @@ button{
     position: relative;
     flex-direction: column;
     align-items: center;
-    width: 1400px;
+    width: 70vw;
+    min-width: 300px;
     padding-top: 70px;
 }
 
 .cart__elements{
     display: flex;
     flex-direction: column;
+    align-items: center;
     overflow-y: scroll;
     max-height: 600px;
     margin-bottom:30px;
@@ -25,7 +27,7 @@ button{
     display: flex;
     width: 700px;
     justify-content: space-between;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .cart__element_left{
@@ -122,7 +124,7 @@ button{
 .cart__bottom{
     display: flex;
     align-items: flex-end;
-    width: 700px;
+    width: 70vw;
     justify-content: space-between;
     position: absolute;
     bottom: 0;
@@ -136,4 +138,33 @@ button{
 
 .totalPrice{
     font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    .cart__element{
+        width: fit-content;
+        margin-bottom: 35px;
+
+    }
+
+    .cart__element_left{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart__element_right{
+        margin-top: 20px;
+    }
+
+    .cart__element{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .cart__bottom{
+        flex-direction: column-reverse;
+        width: 250px;
+        margin-right: 20px;
+
+    }
 }

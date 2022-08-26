@@ -154,26 +154,25 @@
         background-color: white;
         color: black;
     }
+}
+@media(max-width: 425px) {
+    .newCollection__title{
+        font-size: 18px;
+    }
 
-    @media(max-width: 425px) {
-        .newCollection__title{
-            font-size: 18px;
-        }
+    .collectionImg{
+        width: 300px;
+    }
 
-        .collectionImg{
-            width: 300px;
-        }
+    .collectionLink{
+        width: 300px;
+    }
 
-        .collectionLink{
-            width: 300px;
-        }
+    .newCollection__content{
+        flex-direction: column;
+    }
 
-        .newCollection__content{
-            flex-direction: column;
-        }
-
-        .startingSection__img{
-            width: 100vw;
-        }
+    .startingSection__img{
+        width: 100vw;
     }
 }
