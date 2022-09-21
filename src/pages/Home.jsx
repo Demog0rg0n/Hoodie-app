@@ -24,7 +24,7 @@ const Home = () => {
                 <span className="collectionSubtitle">Аниме</span>
             </Link>
             <Link onClick={() => dispatch(setActiveCartoon("allCartoon"))} className="collectionLink" to={"/catalog"}>
-                <img className="collectionImg" src="https://lh4.googleusercontent.com/proxy/9kblhn3G6BdmwJzkKDxSL6izB-SyGN9zDvcwWG7BdYpkJkBJVP4T-KS5_06tBf7EjGzT5zGR-xwW0BkEaOc5qVQrpvw5CT0eJlKyBlWs99hIl1vIEm8jlJfsZoB0WNfj=w1200-h630-p-k-no-nu" alt="" />
+                <img className="collectionImg" src="https://a.d-cd.net/X6AAAgHQ5eA-1920.jpg" alt="" />
                 <span className="collectionSubtitle">Мультфильмы</span>
             </Link>
         </div>
